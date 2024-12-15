@@ -1,0 +1,37 @@
+
+Print(******UNITS CONVERTER*****')
+Print( ‘’ 1- Lenght/n 2- Area/n 3- Volume/n 4- Mass'’)
+ option = int( input(‘ Select an option:  ‘ ) 
+
+Result= 0
+Unit= ‘’
+
+if option == 1:
+Print(‘’Meters to centimeters’’)
+Datum=float(input(‘’enter the        number of meters: ’’))
+Result= datum * 1E2
+Unit= ‘’cm’’
+Print(Square meters to square kilometers’’)
+Datum= float(input(‘’Enter the number of square meters: ‘’)) 
+
+Datum= float(input(‘’Enter the number of square meters: ‘’)) 
+Result= datum * 1E-6
+Unit= ‘’km 2’’
+
+Elif option == 3: 
+Print(‘’cubic meters to cubic centemeters’’) 
+Datum = float(input(‘ Enter the number of cubic meters:  ‘))
+Result = datum * 1E6
+Unit = ‘’cm^
+
+Elif option == 4:
+print(‘’ Grams to kilograms’’) 
+datum = float(input(‘ Enter the number of grams:  ‘))
+Result = datum * 1E-3
+Unit = ‘’kg’’
+
+Else:
+Print(‘’Please choose a valid option’’)
+
+Print(f’ The result of the conversion is {result:.2E}  {unit}’)
+
