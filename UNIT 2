@@ -1,0 +1,14 @@
+SRCIPT: HEATING CURVE
+Import matplotlib.pyplott as plt 
+
+Importt numpy as np 
+
+Impor os 
+
+ 
+
+Print(“**********HEATING CURVE*********”) 
+
+#Store data and check it on screen 
+
+Data = np.array([[0, -45], [20, -30], [45,-30], [60, -30], [75,0], [90,20], [100,30], [ 
