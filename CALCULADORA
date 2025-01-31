@@ -1,0 +1,21 @@
+ Def sumar(x,y): 
+
+          z = x + y 
+
+          print(f’ El resultado de sumar {x} y {y} es {z}.‘ ) 
+
+ 
+
+ Def restar(x,y): 
+
+          z = x – y 
+
+        print(f’ El resultado de restar {x} y {y} es {z}.‘ ) 
+
+ 
+
+ Def multiplicar(x,y): 
+
+        z = x * y 
+
+       print( f’ El resultado de multiplicar {x} y {y} es {z}.’ ) 
